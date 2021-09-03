@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-cd $HOME/ASD
+cd $HOME/ASSD
 rm -rf $HOME/.telegram-cli
 install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
-chmod +x ASD
+chmod +x ASSD
 chmod +x Run
 ./Run
 }
