@@ -212,12 +212,6 @@ if len == nil then len = '*l' end
 local line, err = client.network.socket:receive(len)
 if not err then return line else
 print("\27[36m"..[[                                           
- _____ _____ ___   _ ____  
-|_   _| ____| |  / \  | \ | |  _ \ 
-  | | |  _| | | / _ \ |  \| | | | |
-  | | | |___| |___ / ___ \| |\  | |_| |
-  |_| |_____|_____/_/   \_\_| \_|____/
-> CH › @zzT4T
 > CH › @zzT4T
 ~> DEVELOPER › @vvvv_23
 ]]..'\27[m')
@@ -621,7 +615,7 @@ local function connect_tcp(socket, parameters)
 local host, port = parameters.host, tonumber(parameters.port)
 local ok, err = socket:connect(host, port)
 if not ok then
-print("\27[34m"..[[BY : @vvvv_23:]].."\27[m")
+print("\27[34m"..[[BY : @VVVZVV:]].."\27[m")
 os.exit()
 end 
 socket:setoption('tcp-nodelay', parameters.tcp_nodelay)
